@@ -2,7 +2,7 @@
 # Contributor: Jonathan Duck <duckbrain30@gmail.com>
 
 pkgname=typora
-pkgver=1.9.3
+pkgver=1.10.7
 pkgrel=1
 pkgdesc="A minimal markdown editor and reader."
 arch=('x86_64' 'aarch64')
@@ -15,10 +15,10 @@ optdepends=(
 source=("$pkgname.sh")
 _urlbase="https://download.typora.io/linux/${pkgname}_${pkgver}"
 source_x86_64=("${_urlbase}_amd64.deb")
-source_aarch64=("${_urlbase}_arm64.deb")
+source_aarch64=("https://download.typora.io/linux/typora_1.10.6_arm64.deb")
 sha512sums=('de9c883c63f3ea35bd551c8761e605f8e1a3468943e000abcbf94bb0c5cbb5f0f6c7fa4d49ab39c177f167e0e3d0b061c861bf828627b4a34f7f1589119c3d04')
-sha512sums_x86_64=('da7714d8a2ef228d1df13bf2a6862f3be3fad51238657e8ee48350380267ecfed29b391e0c66653e3b4322e3dada02d2bea6e1041f5230988358645ea0cf4b28')
-sha512sums_aarch64=('6a8623f44884d3ab564518b6c535079607aa97c10ba169447d05291a76d380e3b68cc7268b240d1ac7fd7cb30e64dd8c3752b889ac98c854006cc03e7f14bcb1')
+sha512sums_x86_64=('917d1c52edb0833e9eb5336587dcb49fcdeff2aac9fb720c1be6d9893ca47c3fcd59d0e4f390e058a216032ac7168c27fce4fa621c35453b4805b594be2506de')
+sha512sums_aarch64=('e583d11fc9f6504104d74252cd169ebd29f6849e9e8ac7dbce6da9c5bc915fc07fc1c7e6582dbc6c9b3fe19a66c0c3a09cf6eb89fa5b7a64fe0585883fc55660')
 
 package() {
 	# unpack archive
