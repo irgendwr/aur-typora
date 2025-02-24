@@ -3,7 +3,7 @@
 
 pkgname=typora
 pkgver=1.10.7
-pkgrel=1
+pkgrel=2
 pkgdesc="A minimal markdown editor and reader."
 arch=('x86_64' 'aarch64')
 license=('custom:"Copyright (c) 2015 Abner Lee All Rights Reserved."')
@@ -42,5 +42,7 @@ package() {
 	sed -i '/Change Log/d' "$pkgdir/usr/share/applications/typora.desktop"
 	# fix permissions
 	chmod 644 "$pkgdir/usr/share/applications/typora.desktop"
+	chmod 644 "$pkgdir/usr/share/typora/resources/packages/node-spellchecker/vendor/hunspell_dictionaries/en_US.dic"
+	chmod 644 "$pkgdir/usr/share/typora/resources/packages/node-spellchecker/vendor/hunspell_dictionaries/en_US.aff"
 	find "$pkgdir" -type d -exec chmod 755 {} \;
 }
