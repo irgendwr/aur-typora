@@ -1,6 +1,6 @@
 pkgbase = typora
 	pkgdesc = A minimal markdown editor and reader.
-	pkgver = 1.10.8
+	pkgver = 1.11.7
 	pkgrel = 1
 	url = https://typora.io/
 	arch = x86_64
@@ -13,9 +13,9 @@ pkgbase = typora
 	optdepends = pandoc: Import/export for extra file formats
 	source = typora.sh
 	sha512sums = de9c883c63f3ea35bd551c8761e605f8e1a3468943e000abcbf94bb0c5cbb5f0f6c7fa4d49ab39c177f167e0e3d0b061c861bf828627b4a34f7f1589119c3d04
-	source_x86_64 = https://download.typora.io/linux/typora_1.10.8_amd64.deb
-	sha512sums_x86_64 = dc08b3077388a9168854da0306b32d3153bda6df25c6aa21c061adc6cc8447a42e4368ddcc5ec24cb8b5906cb5342d096ff8efa550e8cd2eeed3683c3fcfb466
-	source_aarch64 = https://download.typora.io/linux/typora_1.10.8_arm64.deb
-	sha512sums_aarch64 = 8fe1e248820516b3a6067e71aa3f811d59b7f95658674d6d3777fff4886c80b9404fca737465176b3e38c7623d85221e16f060ec2bbfbf764a17d9142c60ef5e
+	source_x86_64 = https://download.typora.io/linux/typora_1.11.7_amd64.deb
+	sha512sums_x86_64 = 2d86fcc541c7633e8a4426bcf4cf2ec510f06e5f4119b2de6cd68bf6e92ed936ac58738fd3cf37b505a73de3eaf917b5468b151d4dbabc8ef9b5ffd48b2cad90
+	source_aarch64 = https://download.typora.io/linux/typora_1.11.7_arm64.deb
+	sha512sums_aarch64 = 2552f7b030bdf30ef7f8282baa2113f9ef6cdee11d2902651c8be05c24357547efde0d4ffd440329f234506f4b08852186764165ea8959e45b0413c00c7fe693
 
 pkgname = typora
